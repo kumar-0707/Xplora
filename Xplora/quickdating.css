@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins';
+  }
+.collapse{
+    justify-content: flex-end;
+}
+.collapse a ,.container-fluid a{
+  color:rgb(255, 255, 255);
+  
+}
+.collapse a:hover ,.container-fluid a:hover{
+	transform: scale(1.2);
+	transition: 0.7s;
+	color:rgb(0, 0, 0);
+  }
+
+.navbar{
+  background-color:transparent;
+  background-color: #31363f;
+  position: fixed;
+  z-index: 1000;
+  box-shadow: 0 0 25px #b4b4b4;
+  
+}
+
+.h-100.p-5.text-bg-light.border.rounded-3{
+    background-image: url(assests/velloremain.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.h-100.p-5.bg-body-tertiary.border.rounded-3{
+    background-image: url(assests/pondi.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+
+}
+.h-100.p-5.text-bg-light.border.rounded-3.x{
+  background-image: url(assests/thiru.jpg);
+  background-size:cover ;
+  background-repeat: no-repeat;
+
+}
+.h-100.p-5.bg-body-tertiary.border.rounded-3.y{
+  background-image: url(assests/nil.jpg);
+  background-size:cover ;
+  background-repeat: no-repeat;
+
+}
+
+.h-100.p-5.text-bg-light.border.rounded-3 .mirror{
+    background-color: #13111e80; 
+    color: #fffdfd;
+    border-radius: 6px;
+}
+.h-100.p-5.bg-body-tertiary.border.rounded-3 .mirror{
+    background-color: #21010380; 
+    color: #fffdfd;
+    border-radius: 6px;
+}
+
+.btn.btn-outline-light.mx-3:hover{
+ color: rgb(0, 0, 0);
+}
+footer {
+    width: 100%;
+    padding: 20px 30px;
+    background: #cdcbcb;
+    box-shadow: 0 0 25px #b4b4b4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .social-icon {
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+  }
+  i {
+    font-size: 30px;
+    transition: 0.5s;
+    color: rgb(98, 32, 2);
+  }
+  .social-icon i:hover {
+    transform: translateY(-10px);
+  }
+  footer p {
+    font-weight: 500;
+  }
+  footer span {
+    font-weight: 200;
+  }
+  

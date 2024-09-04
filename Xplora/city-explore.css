@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins';
+  }
+.collapse{
+    justify-content: flex-end;
+}
+.collapse a ,.container-fluid a{
+    color:white;
+    
+  }
+  .collapse a:hover ,.container-fluid a:hover{
+	transform: scale(1.2);
+	transition: 0.7s;
+	color:white;
+  }
+
+.navbar{
+    background-color:transparent;
+    background-color: #31363f;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0 0 25px #b4b4b4;
+    
+}
+.p-4.p-md-5.mb-4.rounded.text-body-emphasis.bg-body-secondary{
+    background-image: url('assests/');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
